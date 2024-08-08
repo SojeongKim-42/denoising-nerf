@@ -1,0 +1,12 @@
+20~30까지 1도 간격으로 학습,
+max_angle = 10, start_angle =20
+angle = start_angle + max_angle/ sensor_count * i
+noble view인 25.5도에서 학습
+- diameter = 20
+- sig_color = 0.015 #얼마나 다른 색상까지 참고할 것인가
+- sig_space = 1.2 #얼마나 멀리 있는 픽셀까지 참고할 것인가
+ref는 4096spp로, low_reference는 64spp로 설정
+- guide RSE: 4.84e-03
+- lowref RSE: 1.84e-03
+- jbf result RSE: 1.17e-03 *but blurry & biased
+- bilateral filter: 1.07e-03 *but still noisy 
