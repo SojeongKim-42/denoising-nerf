@@ -71,7 +71,7 @@
 	<shape type="obj" id="GroundOuter_0001">
 		<string name="filename" value="models/Mesh011.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
+		
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="GroundOuterBSDF" />
@@ -79,7 +79,6 @@
 	<shape type="obj" id="Cloth">
 		<string name="filename" value="models/Mesh010.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="ClothBSDF" />
@@ -87,7 +86,6 @@
 	<shape type="obj" id="GroundOuter_0002">
 		<string name="filename" value="models/Mesh005.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="GroundOuterBSDF" />
@@ -95,7 +93,6 @@
 	<shape type="obj" id="GroundOuter_0003">
 		<string name="filename" value="models/Mesh006.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="GroundOuterBSDF" />
@@ -103,7 +100,6 @@
 	<shape type="obj" id="GroundInner">
 		<string name="filename" value="models/Mesh012.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="GroundInnerBSDF" />
@@ -111,7 +107,6 @@
 	<shape type="obj" id="GroundOuter_0004">
 		<string name="filename" value="models/Mesh007.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="GroundOuterBSDF" />
@@ -119,7 +114,6 @@
 	<shape type="obj" id="Dragon_0001">
 		<string name="filename" value="models/Mesh008.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="DragonBSDF" />
@@ -127,7 +121,6 @@
 	<shape type="obj" id="Dragon_0002">
 		<string name="filename" value="models/Mesh013.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="DragonBSDF" />
@@ -135,7 +128,6 @@
 	<shape type="obj" id="Dragon_0003">
 		<string name="filename" value="models/Mesh014.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="DragonBSDF" />
@@ -143,7 +135,6 @@
 	<shape type="obj" id="Dragon_0004">
 		<string name="filename" value="models/Mesh015.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="DragonBSDF" />
@@ -151,7 +142,6 @@
 	<shape type="obj" id="Blade">
 		<string name="filename" value="models/Mesh004.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="BladeBSDF" />
@@ -159,7 +149,6 @@
 	<shape type="obj" id="Sword">
 		<string name="filename" value="models/Mesh009.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="SwordBSDF" />
@@ -167,7 +156,6 @@
 	<shape type="obj" id="Deco">
 		<string name="filename" value="models/Mesh003.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="DecoBSDF" />
@@ -175,7 +163,6 @@
 	<shape type="obj" id="Diamond">
 		<string name="filename" value="models/Mesh002.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="DiamondBSDF" />
@@ -183,7 +170,6 @@
 	<shape type="obj" id="Deco2_0001">
 		<string name="filename" value="models/Mesh001.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="Deco2BSDF" />
@@ -191,7 +177,6 @@
 	<shape type="obj" id="Deco2_0002">
 		<string name="filename" value="models/Mesh000.obj" />
 		<transform name="to_world">
-		<scale value="0.1"/>
 			<matrix value="1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1" />
 		</transform>
 		<ref id="Deco2BSDF" />
