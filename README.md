@@ -16,3 +16,6 @@ Largely based on [mitsuba3](https://mitsuba.readthedocs.io/en/stable/index.html)
 2. Train NeRF model by high-spp images. 
 3. Generate images using low spp, and the images will have high noise.
 4. Apply joint bilateral filter to low spp images using NeRF images as guide image. It can be simply used as we just need to inference to do filtering without training.
+
+## Comparing result
+Use tev(https://github.com/Tom94/tev) to compare exr images. -> Check RSE error between reference image & guide image(NeRF), lowref, self-filtered(Bilateral) image. 
