@@ -1,0 +1,34 @@
+Params
+
+# Rendering resolution
+render_res = 800
+
+# Number of stages
+num_stages = 4
+
+# Number of training iteration per stage
+num_iterations_per_stage = 2000 #original: 2000
+
+# learning rate 
+learning_rate = 0.03
+
+# Initial grid resolution
+grid_init_res = 16
+
+# Spherical harmonic degree to be use for view-dependent appearance modeling
+sh_degree = 2
+
+# Enable ReLU in integrator
+use_relu = True
+
+# Number of sensors
+sensor_count = 5
+
+# rotating angle range
+max_angle = 5
+
+# starting point
+start_angle =60
+
+
+picked 64.5 from 60-64.5
